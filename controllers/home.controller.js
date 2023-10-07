@@ -47,6 +47,9 @@ class HomeController {
 
     async storeNews(req, res) {
         const payload = req.body;
+
+        console.log(payload);
+
         const store = await newsService.store(payload);
 
         res.status(201).json(store);

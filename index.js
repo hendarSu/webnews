@@ -17,6 +17,12 @@ app.use(ejsLayouts);
 app.set('layout', 'layouts/layouts');
 app.set('layout extractScripts', true);
 
+// Set public folder for libraary web
+app.use(express.static('bower_components'));
+
+// set public folrder
+app.use(express.static('public'));
+
 // built in Middleware
 app.use(express.json());
 app.use(express.urlencoded({
