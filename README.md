@@ -5,11 +5,17 @@ git clone https://github.com/hendarSu/webnews.git
 ```
 setting konfigurasi db di folder config, untuk ORM kita menggunakna Sequelize, dan setelah database di konfigurasi selanjutnya install sequelize-cli di global library node kita dengan cara `npm i sequelize-cli -g`
 setelah proses di atas di lakukan selanjutnya lakukan, create database menggunakan perintah
-```sequelize db:create```
+```
+sequelize db:create
+```
 Lakukan migrasi table
-```sequelize db:migrate:all```
+```
+sequelize db:migrate:all
+```
 dan untuk data seed, lakunan perintah
-```sequelize db:seed:all```
+```
+sequelize db:seed:all
+```
 Setelah di konfigrasi, selanjutnya jalankan perintah `npm install` setelah terinstall running aplikasinya dengan cara, 
 ```
 npm run start:dev
