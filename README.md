@@ -3,7 +3,14 @@ Marikita mencoba mengembangkan aplikasi webnews, untuk memualai mengembangkan da
 ```
 git clone https://github.com/hendarSu/webnews.git
 ```
-Setelah di cloning, jalankan perintah `npm install` setelah terinstall running aplikasinya dengan cara, 
+setting konfigurasi db di folder config, untuk ORM kita menggunakna Sequelize, dan setelah database di konfigurasi selanjutnya install sequelize-cli di global library node kita dengan cara `npm i sequelize-cli -g`
+setelah proses di atas di lakukan selanjutnya lakukan, create database menggunakan perintah
+```sequelize db:create```
+Lakukan migrasi table
+```sequelize db:migrate:all```
+dan untuk data seed, lakunan perintah
+```sequelize db:seed:all```
+Setelah di konfigrasi, selanjutnya jalankan perintah `npm install` setelah terinstall running aplikasinya dengan cara, 
 ```
 npm run start:dev
 ```
