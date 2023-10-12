@@ -1,4 +1,5 @@
 # Membuat Webnews
+Webnews merupakan aplikasi CRUD berita, feature comment dan manage berita berdasarkan user yang login.
 ## Prepare Development
 Marikita mencoba mengembangkan aplikasi webnews, untuk memualai mengembangkan dan latihan membuat webapps ini, hal pertama yang perlu dilakukan adalah.
 ```
